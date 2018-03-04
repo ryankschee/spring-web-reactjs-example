@@ -6,13 +6,6 @@ This is the code developed to show on how to develop Spring Web with ReactJS.
 - Maven
 - JDK 8
 
-### Configuration
-
-First you need to edit `application.properties` and put in your Stormpath application keys.
-
-Also to enable deletion you need to either delete the `void delete()` method in `EmployeeRepository.java`
-or replace 'ROLE_ADMIN' with the URL of the Stormpath Group you are using to authorize.
-
 ### Running
 
 To build and start the server simply type
